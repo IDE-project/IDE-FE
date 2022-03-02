@@ -1,0 +1,11 @@
+<div class="explorer">
+  <h6>Explorer</h6>
+  <div
+    *ngFor="let file of numbers;"
+    class="files-and-folders"
+  >
+    <fa-icon [icon]="faCoffee"></fa-icon>
+    <a href="#"> <strong>{{ filesAndFolders.directories[file].name }}</strong> </a>
+
+  </div>
+</div>
